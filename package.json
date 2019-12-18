@@ -18,7 +18,7 @@
     "lite-server": "^2.5.4"
   },
   "prettier": {
-    "printWidth": 100,
+    "printWidth": 120,
     "singleQuote": true,
     "trailingComma": "es5",
     "bracketSpacing": true,
