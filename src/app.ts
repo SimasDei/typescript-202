@@ -126,6 +126,7 @@ class ProjectList {
 
   private renderProjects() {
     const listEl = document.getElementById(`${this.type}-projects-list`)! as HTMLUListElement;
+    listEl.innerHTML = "";
     for (const prjItem of this.assignedProjects) {
       const listItem = document.createElement("li");
       listItem.textContent = prjItem.title;
@@ -231,3 +232,5 @@ class ProjectInput {
 const prjInput = new ProjectInput();
 const activePrjList = new ProjectList("active");
 const finishedPrjList = new ProjectList("finished");
+
+console.log("Ahoy Sailor o/");
