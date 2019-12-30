@@ -100,6 +100,7 @@ button:active {
   padding: 1rem;
   margin: 1rem;
   color: #fff;
+  background: #2f2f31;
 }
 
 .projects li h2 {
